@@ -1,0 +1,58 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://data.nal.usda.gov/system/files/Fungus-Host-Data_20211105.csv",
+    "dcterms:bibliographicCitation" : "Farr, David F.; Rossman, Amy Y.; Castlebury, Lisa A. (2021). United States National Fungus Collections Fungus-Host Dataset. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/1524414.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName" : "hasHost",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002454",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "fungushostcounter",
+        "titles" : "fungushostcounter",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "sciName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "host",
+        "datatype" : "string"
+      }, {
+        "name" : "FHLRcounter",
+        "titles" : "FHLRcounter",
+        "datatype" : "string"
+      }, {
+        "name" : "litnum",
+        "titles" : "litnum",
+        "datatype" : "string"
+      }, {
+        "name" : "stateProvince",
+        "titles" : "stateProvince",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "country",
+        "datatype" : "string"
+      }, {
+        "name" : "occurrenceRemarks",
+        "titles" : "occurrenceRemarks",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "citation",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
