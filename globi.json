@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "https://data.nal.usda.gov/system/files/Fungus-Host-Data_20211105.csv",
+    "url" : "https://agdatacommons.nal.usda.gov/ndownloader/files/43732281",
     "dcterms:bibliographicCitation" : "Farr, David F.; Rossman, Amy Y.; Castlebury, Lisa A. (2021). United States National Fungus Collections Fungus-Host Dataset. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/1524414.",
     "delimiter" : ",",
     "headerRowCount" : 1,
